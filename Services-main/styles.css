@@ -313,18 +313,19 @@ p {
     align-items: center;
     background-color: #00773e;
     color: rgb(255, 255, 255);
-    padding: 60px;    
+    padding: 50px;    
     margin: 40px auto;
     
 }
 
 .guide-content img {
     width: 300px;
-    padding-left: 320px;
+    padding-left: 300px;
     border-radius: 10px;
 }
 
 .guide-description {
+    padding-right: 200px;
     width: 50%;
 }
 
@@ -354,6 +355,7 @@ p {
     color: white;
 }
 .partner-logos-section {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
