@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #4caf50;
+      }
+      .contact-section {
+        display: flex;
+        justify-content: space-between;
+      }
+      .contact-form {
+        width: 60%;
+      }
+      .contact-details {
+        width: 35%;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      .contact-form button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .contact-form button:hover {
+        background-color: #45a049;
+      }
+      .contact-details h2,
+      .contact-details p {
+        margin: 10px 0;
+      }
+      .contact-details a {
+        color: #4caf50;
+        text-decoration: none;
+      }
+      .contact-details a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-bar">
+        <div class="contact-info">
+          <span>📞 (08) 9329 9399</span>
+        </div>
+        <div class="top-links">
+          <a href="join_us.html">Join Us</a>
+          <a href="about.html">About</a>
+          <a href="feedback.html">Feedback</a>
+        </div>
+      </div>
+      <div class="main-header">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="https://www.interchangewa.org.au/wp-content/uploads/2018/07/Interchange_logo_green.png"
+              alt="Interchange Logo"
+            />
+            <p>HELPABLE</p>
+          </a>
+        </div>
+        <nav class="navigation">
+          <a href="services.html">Services</a>
+          <a href="our_approach.html">Our Approach</a>
+          <a href="stories.html">Stories</a>
+          <a href="contact.html">Contact</a>
+          <a href="#" class="search-icon">🔍</a>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="contact-section">
+        <div class="contact-form">
+          <h2>Let’s start a conversation</h2>
+          <form>
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone *</label>
+            <input type="text" id="phone" name="phone" required />
+
+            <label for="suburb">Suburb *</label>
+            <input type="text" id="suburb" name="suburb" required />
+
+            <label for="services">What services are you interested in?</label>
+            <input
+              type="checkbox"
+              id="service1"
+              name="services"
+              value="service1"
+            />
+            Individual Living Options<br />
+            <input
+              type="checkbox"
+              id="service2"
+              name="services"
+              value="service2"
+            />
+            Support Coordination<br />
+            <input
+              type="checkbox"
+              id="service3"
+              name="services"
+              value="service3"
+            />
+            Shared Management<br />
+            <input
+              type="checkbox"
+              id="service4"
+              name="services"
+              value="service4"
+            />
+            Plan Management<br />
+            <input
+              type="checkbox"
+              id="service5"
+              name="services"
+              value="service5"
+            />
+            Daily Living Skills<br />
+            <input
+              type="checkbox"
+              id="service6"
+              name="services"
+              value="service6"
+            />
+            Personal Care<br />
+            <input
+              type="checkbox"
+              id="service7"
+              name="services"
+              value="service7"
+            />
+            Social and Community Participation<br />
+            <input
+              type="checkbox"
+              id="service8"
+              name="services"
+              value="service8"
+            />
+            Transport Options<br />
+            <input
+              type="checkbox"
+              id="service9"
+              name="services"
+              value="service9"
+            />
+            Finding and Keeping a Job<br />
+            <input
+              type="checkbox"
+              id="service10"
+              name="services"
+              value="service10"
+            />
+            Other<br />
+
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label for="captcha">Captcha *</label><br />
+            <input type="checkbox" id="captcha" name="captcha" required /> I'm
+            not a robot<br /><br />
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="contact-details">
+          <h2>Contact us</h2>
+          <p>Phone: <a href="tel:(08) 9329 9399">(08) 9329 9399</a></p>
+          <p>
+            Email:
+            <a href="mailto:hello@interchangewa.org.au"
+              >hello@interchangewa.org.au</a
+            >
+          </p>
+          <p>Opening Hours: Monday – Friday, 8am and 5pm</p>
+
+          <h2>Find us here</h2>
+          <p>Cloverdale / Central Office</p>
+          <p>10/213 Wright Street, Cloverdale WA 6105</p>
+          <p>Postal Address: PO Box 121 Cloverdale WA 6985</p>
+
+          <p>Myaree</p>
+          <p>9/32 Hulme Court, Myaree WA 6154</p>
+
+          <p>Rockingham</p>
+          <p>Unit 15, 3 Benjamin Way, Rockingham WA 6168</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
