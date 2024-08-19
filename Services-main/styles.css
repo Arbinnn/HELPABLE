@@ -311,17 +311,17 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00773e;
+    background-color: #006434;
     color: rgb(255, 255, 255);
-    padding: 50px;    
-    margin: 40px auto;
+    padding: 25px;    
+    margin: 20px auto;
     
 }
 
 .guide-content img {
-    width: 300px;
-    padding-left: 300px;
-    border-radius: 10px;
+    width: 270px;
+    padding-left: 320px;
+    border-radius: 30px;
 }
 
 .guide-description {
