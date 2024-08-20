@@ -78,6 +78,38 @@ a:hover {
     border-radius: 10px;    
 }
 /* Services Section Styles */
+
+.info-section {
+    background-image: url(./Images/what-should-you-put-in-your-protein-shake.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 260px 10px;
+    text-align: left; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.info-content {
+    background-color: rgba(0, 97, 0, 0.836);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px; 
+    margin-left: 200px; 
+}
+
+
+.info-content h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.info-content p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
 .services-section {
     width: 80%;
     margin: 0 auto;
@@ -107,10 +139,10 @@ a:hover {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    background-color: #ffffff; /* White background for each service */
+    
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    
 }
 
 .service-item img {
