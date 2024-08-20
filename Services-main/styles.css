@@ -22,11 +22,15 @@ body {
 .top-links a {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 20px;    
 }
 
 .top-links a:hover {
-    text-decoration: underline;
+    padding: 15px 10px;
+    background-color: #ffffff;
+    color: #007500;
+    text-decoration: none;
+    border-radius: auto; 
 }
 
 .main-header {
@@ -56,13 +60,11 @@ body {
 
 
 .navigation :hover {    
-    padding: 20px 20px;
+    padding: 15px 10px;
     background-color: #00773e;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
-    
-    
+    border-radius: 10px;    
 }
 
 .banner {
@@ -381,9 +383,9 @@ p {
 .assume {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 30px;
 }
-.assume1 h1{
+.assume h1{
     
     color: #00572b;
     padding: 10px 20px;
@@ -391,15 +393,15 @@ p {
     
 }
 .assume-item {    
-    width: 300px;    
-    margin: 10px;
+    width: 500px;    
+    margin: 5px;
     padding: 20px;
     border-radius: 5px;
 }
 
 .assume-item img {
-    width: 100%;
-    height: auto;
+    width: 110%;
+    height: auto;    
     border-radius: 5px;
 }
 
@@ -407,7 +409,7 @@ p {
 footer {
     
     padding: 20px;
-    color: #333;
+    color: #094620;
 }
 
 footer .footer-content {
