@@ -136,6 +136,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     border-bottom: 2px solid #408a40;
+    border-radius: 10px;
 }
 
 .story h2 {
