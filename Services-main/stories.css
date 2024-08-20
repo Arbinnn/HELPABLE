@@ -166,16 +166,9 @@ nav ul li a {
 .read-more:hover {
     text-decoration: underline;
 }
-
-.single-story {
-    flex-direction: column;
-    align-items: center;
-}
-
 .single-story .story {
-    width: 100%;
+    width: 30%;
 }
-
 .pagination {
     display: flex;
     justify-content: center;
