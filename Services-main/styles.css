@@ -4,14 +4,14 @@ body {
     background-color: #f4f4f4;
 }
 
-.header1 {
+.header {
     
     background-color: #ffffff;
     color: #ffffff;
  
 }
 
-.top-bar1 {
+.top-bar {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
