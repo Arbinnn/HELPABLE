@@ -406,14 +406,15 @@ p {
 
 footer {
     
-    padding: 20px;
+    padding: 0px;
     color: #094620;
 }
 
 footer .footer-content {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -494,16 +495,18 @@ footer .footer-bottom a {
     text-decoration: none;
 }
 .view{
+    font-size: 20px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: center;
 }
 .view-more {
     align-items: center;
-    padding: 10px 20px;    
+    padding: 13px 30px;    
     background-color: #00773e;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
 }
 .view-more:hover {
