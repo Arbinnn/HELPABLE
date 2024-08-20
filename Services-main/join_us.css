@@ -140,11 +140,11 @@ header {
 
 /* Main Section Styles */
 .join-us-section {
-    padding: 20px;
+    padding: 10px;
     max-width: 1200px;
     margin: 20px auto;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+    
 }
 
 .join-us-section h1, .join-us-section h2, .join-us-section h3 {

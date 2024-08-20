@@ -55,8 +55,14 @@ body {
 }
 
 
-.navigation a:hover {
-    text-decoration: underline;
+.navigation :hover {    
+    padding: 20px 20px;
+    background-color: #00773e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    
 }
 
 .banner {
