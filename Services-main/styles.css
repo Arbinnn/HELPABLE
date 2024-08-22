@@ -357,7 +357,7 @@ p {
 
 
 .assume {
-    display: flex;
+    display: flex
     justify-content: space-around;
     padding: 70px;
 }
@@ -495,6 +495,11 @@ footer .footer-bottom a {
 
 @media screen and (max-width: 768px)
 {
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+    }
     .top-bar {
         display: flex;
         justify-content: space-between;
@@ -729,13 +734,14 @@ footer .footer-bottom a {
     
     .guide-content img {
 
-        width: 80px; /* Adjust image size */        
+        width: 150px; /* Adjust image size */
+        padding: 0 10px;        
         
     }
     
     .guide-description {
-        width: 100%; /* Ensure it uses full width of the section */
-        padding: 0 20px; /* Add padding on both sides */
+        width: 80%; /* Ensure it uses full width of the section */
+        padding: 0 8px; /* Add padding on both sides */
     }
     
     .guide-description h2 {
@@ -774,30 +780,25 @@ footer .footer-bottom a {
         margin: auto; /* Center the logos within their grid cells */
     }
     .assume {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        padding: 50px 20px; /* Add padding with space from the screen edges */
+        
+        
+        align-items: center; /* Center items horizontally */        
         gap: 40px; /* Space between each item */
         margin: 0 auto; /* Center the entire container */
         max-width: 1200px; /* Restrict the container width */
     }
     
-    .assume-item {
-        display: flex;
-        flex-direction: column;
+    .assume-item {      
+        
         align-items: center; /* Center the content horizontally */
-        width: 100%; /* Make each item take the full width available */
-        max-width: 700px; /* Limit the width of each item */
-        margin: 0 auto; /* Center the items */
-        padding: 20px;
-        border-radius: 5px;        
+        width: 80%; /* Make each item take the full width available */   
+        margin: 0 auto; /* Center the entire container */              
         text-align: center; /* Center the text content */
     }
     
     .assume-item img {
-        width: 80%; /* Make the image fit within the container */
-        height: auto;
+        width: 100%; /* Make the image fit within the container */
+        height: auto;        
         border-radius: 10px;
     }
     
@@ -930,7 +931,7 @@ footer .footer-bottom a {
     }
     
     .footer-right img {
-        max-width: 150px; /* Adjust as needed */
+        max-width: 100px; /* Adjust as needed */
         height: auto;
         margin-top: 20px;
         object-fit: contain;
