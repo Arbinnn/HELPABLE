@@ -357,8 +357,8 @@ p {
 
 
 .assume {
-    display: flex;
-    justify-content:space-around;
+    display: flex
+    justify-content: space-around;
     padding: 70px;
 }
 .assume h1{
@@ -658,7 +658,7 @@ footer .footer-bottom a {
     
     .text-content {
         width: 90%; /* Full width for text content */
-        margin-bottom: 50px; /* Space between text and video */
+        margin-bottom: 20px; /* Space between text and video */
     }
     
     .text-content h2 {
@@ -669,7 +669,7 @@ footer .footer-bottom a {
     
     .text-content p {
         margin-bottom: 15px;
-        font-size: 14px;
+        font-size: 16px;
     }
     
     .read-more {
@@ -717,7 +717,7 @@ footer .footer-bottom a {
         display: flex;
         flex-direction: column; /* Stack children vertically */
         align-items: flex-start; /* Align items to the start (top) */
-        background-color: #007506;
+        background-color: #006434;
         color: #ffffff;
         padding: 20px;
         margin: 20px auto;
@@ -740,7 +740,7 @@ footer .footer-bottom a {
     }
     
     .guide-description {
-        width: 90%; /* Ensure it uses full width of the section */
+        width: 80%; /* Ensure it uses full width of the section */
         padding: 0 8px; /* Add padding on both sides */
     }
     
@@ -751,7 +751,7 @@ footer .footer-bottom a {
     }
     
     .guide-description p {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
     
