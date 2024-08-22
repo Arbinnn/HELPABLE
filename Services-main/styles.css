@@ -658,7 +658,7 @@ footer .footer-bottom a {
     
     .text-content {
         width: 90%; /* Full width for text content */
-        margin-bottom: 20px; /* Space between text and video */
+        margin-bottom: 50px; /* Space between text and video */
     }
     
     .text-content h2 {
@@ -669,7 +669,7 @@ footer .footer-bottom a {
     
     .text-content p {
         margin-bottom: 15px;
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .read-more {
