@@ -357,7 +357,7 @@ p {
 
 
 .assume {
-    display: flex
+    display: flex;
     justify-content: space-around;
     padding: 70px;
 }
@@ -779,8 +779,7 @@ footer .footer-bottom a {
         max-width: 200px; /* Optional: Limit the logo size */
         margin: auto; /* Center the logos within their grid cells */
     }
-    .assume {
-        
+    .assume {      
         
         align-items: center; /* Center items horizontally */        
         gap: 40px; /* Space between each item */
@@ -829,6 +828,7 @@ footer .footer-bottom a {
         }
     
         .assume {
+            display: inline;
             padding: 10px 10px; /* Adjust padding for smaller screens */
         }
     }
