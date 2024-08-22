@@ -785,26 +785,28 @@ footer .footer-bottom a {
         align-items: center; /* Center items horizontally */        
         gap: 40px; /* Space between each item */
         margin: 0 auto; /* Center the entire container */
-        max-width: 1200px; /* Restrict the container width */
+        max-width: 1500px; /* Restrict the container width */
     }
     
     .assume-item {      
         
         align-items: center; /* Center the content horizontally */
-        width: 80%; /* Make each item take the full width available */   
+        width: 80%; /* Make each item take the full width available */ 
+        height: auto;
+        padding-right: 1000px;  
         margin: 0 auto; /* Center the entire container */              
         text-align: center; /* Center the text content */
     }
     
     .assume-item img {
-        width: 100%; /* Make the image fit within the container */
-        height: auto;        
+        width: 105%; /* Make the image fit within the container */
+        height: auto;              
         border-radius: 10px;
     }
     
     .assume-item h2 {
         color: #00572b;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     
     .assume-item p {
@@ -823,11 +825,11 @@ footer .footer-bottom a {
     
     @media (max-width: 768px) {
         .assume-item {
-            padding: 15px;
+            padding: 1px;
         }
     
         .assume {
-            padding: 40px 50px; /* Adjust padding for smaller screens */
+            padding: 10px 10px; /* Adjust padding for smaller screens */
         }
     }
     .view {
