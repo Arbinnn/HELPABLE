@@ -87,7 +87,7 @@ body {
     padding: 10px 15px;
     
 }
-.navigation :hover {    
+.navigation a:hover {    
     padding: 20px 15px;
     background-color: #00773e;
     color: #ffffff;
