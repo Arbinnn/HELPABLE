@@ -51,14 +51,14 @@ body {
     height: 60px;
     margin-right: 10px;
 }
-.sidebar{                 
+.sidebar{
+    padding-top: 70px;                 
     position: fixed;
     top: 0;
     right:0;
     height: 100vh;
-    width: 300px;
-    z-index: 9999;
-    background-color: rgba(255, 255, 255, 0.2);
+    width: 250px;    
+    background-color: rgb(255, 255, 255);
     backdrop-filter: blur(10px);
     box-shadow: bisque;
     display:none;
@@ -551,7 +551,7 @@ footer .footer-bottom a {
         color: #000;
         justify-content: space-between;
         align-items: center;
-        padding: 5px 5px;
+        padding: 30px 20px;
     }
     .logo {
         display: flex;
