@@ -39,7 +39,7 @@ body {
     color: #000;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 210px;
+    padding: 15px 210px;
 }
 
 .logo {
@@ -52,7 +52,8 @@ body {
     margin-right: 10px;
 }
 .sidebar{
-    padding-top: 70px;                 
+    margin-top: 50px;
+    padding-top: 15px;                 
     position: fixed;
     top: 0;
     right:0;
@@ -87,6 +88,7 @@ body {
     padding: 10px 15px;
     
 }
+
 .navigation a:hover {    
     padding: 20px 15px;
     background-color: #00773e;
@@ -575,6 +577,9 @@ footer .footer-bottom a {
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
+}
+.menu-button a:hover{
+    background-color: #ffffff;
 }
 /* Hide only the navigation links on screens 768px and smaller */
 @media screen and (max-width: 768px) {
