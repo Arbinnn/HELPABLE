@@ -563,11 +563,25 @@ footer .footer-bottom a {
 
     .footer-middle {
         display: none; /* Hide the footer-middle section on small screens */
+    }   
+    .services-section h1 {
+        margin-left: 0; /* Align to the left */
+        padding-left: 0; /* Ensure no padding */
     }
     
-    .services-section {
-        width: 100%;
-        padding: 20px 0;
+    .breadcrumb {
+        margin-left: 0; /* Align breadcrumb to the left */
+        padding-left: 0;
+        margin-top: 10px; /* Adjust spacing below the heading */
+    }
+    
+    .breadcrumb a {
+        text-decoration: none;
+        color: #000; /* Link color */
+    }
+    
+    .breadcrumb span {
+        color: #000; /* Separator and current page color */
     }
 
     .service-item {
@@ -580,7 +594,7 @@ footer .footer-bottom a {
     }
 
     .service-item img {
-        width: 100%; /* Make image full-width */
+        width: 90%; /* Make image full-width */
         margin-right: 0;
         margin-bottom: 20px;
     }
