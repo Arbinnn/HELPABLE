@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="services.css">
     <title>Interchange Website</title>
 </head>
@@ -22,24 +25,35 @@
             <div class="logo">
                 <a href="index.html">
                 <img src="https://www.interchangewa.org.au/wp-content/uploads/2018/07/Interchange_logo_green.png" alt="Interchange Logo">
-                <p>HELPABLE</p>
+                
             </a>
-            </div>
-            <nav class="navigation">
-                <a href="services.html">Services</a>
+            </div> 
+            <nav class="sidebar">
+                <a onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="auto" viewBox="0 -960 960 960" width="30px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+               <hr><a href="#" class="search-icon">🔍</a>
+               <hr><a href="services.html">Services</a>
                 <a href="our_approach.html">Our Approach</a>
-                <a href="stories.html">Stories</a>
-                <a href="contact.html">Contact</a>
-                <a href="#" class="search-icon">🔍</a>
+                <a href="stories.html">Stories</a></li>
+                <a href="contact.html">Contact</a>            
              </nav>
+             <nav class="navigation">                
+                <ul>
+                    <li class="hideOnMobile"><a href="services.html">Services</a></li>
+                    <li class="hideOnMobile"><a href="our_approach.html">Our Approach</a></li>
+                    <li class="hideOnMobile"><a href="stories.html">Stories</a></li>
+                    <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                    <li class="hideOnMobile"><a href="#" class="search-icon">🔍</a></li>
+                </ul>
+                <div class="menu-button">
+                    <a onclick="showSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="auto" viewBox="0 -960 960 960" width="30px" fill="#000">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></div>            
+            </nav>
+            
+            
     
         </div>
     </header>
-<section class="info-section">
-    <div class="info-content">
-        <h2>Everyone belongs</h2>
-        <p>Supporting people with disability to live a good life</p>
-    </div>
+<section class="info-section">    
 </section>
     
     <div class="services-section">
