@@ -564,22 +564,26 @@ footer {
     }
 
     .story img {
-        width: 120%; /* Increase width to make image a bit bigger */
+        width: 105%; /* Increase width to make image a bit bigger */
         height: auto;
         display: block;
-        margin: 0 -9.5%; /* Adjust margin to center image and counteract the width increase */
+        margin: 0 -2%; /* Adjust margin to center image and counteract the width increase */
         max-width: none; /* Allow image to exceed container width */
     }
 
     .story {
-        width: 90%;
+        width: 101%;
         margin-bottom: 20px;
     }
 
     .single-story .story {
-        width: 90%;
+        width: 102%; /* Increase width to make image a bit bigger */
+        height: auto;
+        display: block;
+        margin: 0 -2%; /* Adjust margin to center image and counteract the width increase */
+        max-width: none; /* Allow image to exceed container width */
     }
-
+ 
     .info-content {
         margin-left: 20px;
         max-width: 90%;
