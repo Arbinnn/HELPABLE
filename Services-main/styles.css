@@ -821,39 +821,38 @@ footer .footer-bottom a {
         max-width: 200px; /* Optional: Limit the logo size */
         margin: auto; /* Center the logos within their grid cells */
     }
-    .assume {      
-        
-        align-items: center; /* Center items horizontally */        
+    .assume {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
         gap: 40px; /* Space between each item */
-        margin: 0 auto; /* Center the entire container */
+        margin: 0 auto; /* Center the entire container horizontally */
         max-width: 1500px; /* Restrict the container width */
+        padding: 0 10px; /* Add padding to prevent items from touching the edges */
     }
     
-    .assume-item {      
-        
-        align-items: center; /* Center the content horizontally */
-        width: 80%; /* Make each item take the full width available */ 
-        height: auto;
-        padding-right: 1000px;  
-        margin: 0 auto; /* Center the entire container */              
+    .assume-item {
+        display: flex; /* Use flexbox to align items inside */
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center items horizontally */
+        width: 100%; /* Ensure items take full width available */
         text-align: center; /* Center the text content */
     }
     
     .assume-item img {
-        width: 105%; /* Make the image fit within the container */
-        height: auto;              
+        width: 93%; /* Make the image 93% of its container's width */
+        max-width: 93%; /* Ensure the image does not exceed 93% of its container's width */
+        height: auto; /* Maintain aspect ratio */
         border-radius: 10px;
+        padding-bottom: 30px;
     }
     
-    .assume-item h2 {
-        color: #00572b;
-        margin-top: 10px;
-    }
-    
+    .assume-item h2,
     .assume-item p {
-        margin-top: 10px;
-        font-size: 16px; /* Optional: Adjust text size */
-        line-height: 1.5; /* Optional: Improve readability */
+        width: 93%; /* Make the text elements match the image width */
+        max-width: 93%; /* Ensure text elements do not exceed 93% of their container's width */
+        margin: 0 auto; /* Center text horizontally within the container */
+        text-align: left; /* Align text to the left */
     }
     
     .assume-item a {
@@ -866,14 +865,12 @@ footer .footer-bottom a {
     
     @media (max-width: 768px) {
         .assume-item {
-            padding: 1px;
-        }
-    
-        .assume {
-            display: inline;
-            padding: 10px 10px; /* Adjust padding for smaller screens */
+            padding: 10px; /* Adjust padding for smaller screens */
         }
     }
+    
+    
+    
     .view {
         font-size: 20px;
         padding-bottom: 60px;
