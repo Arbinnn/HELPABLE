@@ -278,6 +278,9 @@ footer .footer-bottom a {
     color: #3987db;
     text-decoration: none;
 }
+.content-sidebar hr{
+    display: none;
+}
 @media screen and (max-width: 768px)
 {
     body {
@@ -512,13 +515,17 @@ footer {
     }
     
     .content-main {
-        width: 100%; /* Ensure full width on small screens */
-        margin: 0; /* Remove margin if needed */
+        width: 110%; /* Ensure full width on small screens */
+        margin: 0 -4%; /* Remove margin if needed */
     }
 
     .content-sidebar {
         width: 100%; /* Ensure full width on small screens */
         padding: 20px 0; /* Adjust padding if needed */
+    }
+    .content-sidebar hr{
+        display: flex;
+        padding-bottom: 0px;
     }
 }
 
