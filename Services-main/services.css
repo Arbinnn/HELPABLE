@@ -51,31 +51,91 @@ body {
     height: 60px;
     margin-right: 10px;
 }
-.sidebar{
+.sidebar {
     margin-top: 50px;
-    padding-top: 40px;                 
+    padding-top: 20px;                 
     position: fixed;
-    top: 0;
-    right:0;
+    top: 0;    
+    right: 0;
     height: 100vh;
     width: 250px;    
-    background-color: rgb(255, 255, 255);
-    backdrop-filter: blur(10px);
-    box-shadow: bisque;
-    display:none;
+    background-color: #ffffff;   
+    display: none;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: flex-start;
+    padding-left: 20px;
 }
-.sidebar li{
-    width: 100%;
-}
-.sidebar a{
+
+.sidebar a {
+    display: block;
     width: 100%;
     color: #000000;        
     text-decoration: none;        
-    padding: 7px 40px;
+    padding: 10px 20px;
+    font-size: 17px;    
 }
+
+.sidebar a:hover {
+    background-color: #f0f0f0;
+}
+
+.sidebar hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 15px -5%;
+}
+
+.sidebar .close-sidebar {
+    margin-bottom: 20px;
+}
+
+.search-container {    
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 10px 0;
+    padding-bottom: 30px; /* Added padding to create space between search and links */
+    position: relative;
+}
+
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-container .search-button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.search-container .search-button svg {
+    fill: #000;
+}
+
+.sidebar .search-container input[type="text"]::placeholder {
+    color: #999;
+}
+
+.sidebar .search-icon {
+    display: none;
+}
+.sidebar a[href="services.html"],
+.sidebar a[href="our_approach.html"],
+.sidebar a[href="stories.html"],
+.sidebar a[href="contact.html"] {
+    font-weight: bold;
+} 
     
 .navigation li{
     list-style-type: none;
