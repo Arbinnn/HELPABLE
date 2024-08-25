@@ -48,8 +48,9 @@ body {
 }
 
 .logo img {
-    height: 60px;
-    margin-right: 10px;
+    width: 150px;
+    height: auto;
+    
 }
 .sidebar {
     margin-top: 50px;
@@ -307,8 +308,10 @@ footer .footer-right {
 }
 
 footer .footer-left img {
-    display: flex;
-    padding-left: 140px;
+    display: inline;
+    margin: 0 22%;
+    padding-bottom: 15px;
+    max-width: 140px;
     
 }
 
@@ -410,8 +413,7 @@ footer .footer-bottom a {
     }
     
     .logo img {
-        height: 60px;
-        margin-right: 10px;
+        width: 125px;        
     }
 /* General styles for the navigation */
 .navigation {
@@ -500,10 +502,13 @@ footer .footer-right {
 }
 
 footer .footer-left img {
-    display: inline;        
-    padding: 0 20;        
+    display: inline;
+    margin: 0 -6%;        
+    padding: 0 10;
+    margin-top: 4%;
+    padding-left: 10%;        
     padding-bottom: 15px;
-    max-width: 100px; /* Adjust as needed */
+    max-width: 120px; /* Adjust as needed */
 }
 
 footer .footer-left p {

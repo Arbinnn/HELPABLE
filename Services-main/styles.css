@@ -48,8 +48,8 @@ body {
 }
 
 .logo img {
-    height: 60px;
-    margin-right: 10px;
+    width: 150px;
+    height: auto;    
 }
 .sidebar {
     margin-top: 50px;
@@ -436,17 +436,18 @@ p {
     background-color: #00572b;
     color: white;
 }
-.partner-logos-section {
-    background-color: white;
-    display: flex;
+.partner-logos-section {    
+    display: flex;    
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 40px 0;
+    padding-top: 100px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .partner-logos-section img {
+    
     width: 150px;
     margin: 0 10px;
 }
@@ -499,8 +500,10 @@ footer .footer-right {
 }
 
 footer .footer-left img {
-    display: flex;
-    padding-left: 140px;
+    display: inline;               
+    margin: 0 22%;       
+    padding-bottom: 15px;
+    max-width: 140px; /* Adjust as needed */
     
 }
 
@@ -620,8 +623,7 @@ footer .footer-bottom a {
     }
     
     .logo img {
-        height: 60px;
-        margin-right: 10px;
+        width: 125px;        
     }
 /* General styles for the navigation */
 .navigation {
@@ -966,7 +968,7 @@ footer .footer-bottom a {
     }
     
     footer .footer-content {
-        display: flex;
+        display: flex;        
         justify-content: space-between;
         padding: 0px 0;
         border-bottom: 1px solid #ddd;
@@ -982,10 +984,13 @@ footer .footer-bottom a {
     }
     
     footer .footer-left img {
-        display: inline;        
-        padding: 0 20;        
+        display: inline;
+        margin: 0 -6%;        
+        padding: 0 10;
+        margin-top: 4%;
+        padding-left: 10%;        
         padding-bottom: 15px;
-        max-width: 100px; /* Adjust as needed */
+        max-width: 120px; /* Adjust as needed */
     }
     
     footer .footer-left p {
@@ -1038,7 +1043,7 @@ footer .footer-bottom a {
         max-width: 100px; /* Adjust as needed */
         padding: 0 20;
         height: auto;
-        margin-top: 20px;
+        margin-top: 10px;
         object-fit: contain;
     }
     
@@ -1069,11 +1074,8 @@ footer .footer-bottom a {
         footer .footer-right {
             padding: 10px 0;
             text-align: start;
-        }
-    
-        footer .footer-left img {
-            margin-bottom: 0px;
-        }
+        }  
+        
     
         .footer-middle {
             display: none; /* Hide the footer-middle section on small screens */

@@ -48,9 +48,10 @@ body {
 }
 
 .logo img {
-  height: 60px;
-  margin-right: 10px;
+  width: 150px;
+  height: auto;    
 }
+
 
 .sidebar {
     margin-top: 50px;
@@ -259,22 +260,20 @@ body {
   }
 
   .main-header {
-      display: flex;
-      color: #000;
-      justify-content: space-between;
-      align-items: center;
-      padding: 30px 20px;
-  }
+    display: flex;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
 
-  .logo {
-      display: flex;
-      align-items: center;
-  }
-
-  .logo img {
-      height: 60px;
-      margin-right: 10px;
-  }
+.logo img {
+    width: 125px;        
+}
 
   .navigation {
       display: flex;
