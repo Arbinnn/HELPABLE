@@ -389,26 +389,29 @@ p {
 .play-button:hover {
     background-color: hsla(0, 0%, 0%, 0.902);
 }
-.planning-guide-section {
+.planning-guide-section{     
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the content horizontally */
     align-items: center;
     background-color: #006434;
     color: rgb(255, 255, 255);
     padding: 25px;    
-    margin: 20px auto;
+    margin: 30px auto;
+    max-width: 100%; /* Ensures the section doesn't stretch too wide */
+}
+
+.guide-content img {    
+    width: 270px;
+    border-radius: 30px;
+    margin-right: 20px; /* Adds some space between the image and text */
+        /* Remove padding-left to prevent misalignment */    
     
 }
 
-.guide-content img {
-    width: 270px;
-    padding-left: 320px;
-    border-radius: 30px;
-}
-
-.guide-description {
-    padding-right: 200px;
-    width: 50%;
+.guide-description {    
+    justify-content: space-between;    
+    width: 60%;
+    text-align: left; /* Ensures text alignment is consistent */
 }
 
 .guide-description h2 {
@@ -436,6 +439,7 @@ p {
     background-color: #00572b;
     color: white;
 }
+
 .partner-logos-section {    
     display: flex;    
     justify-content: space-between;
