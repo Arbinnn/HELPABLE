@@ -368,14 +368,14 @@ p {
 
 .video-content img {
     
-    width: 120%;
+    width: 100%;
     border-radius: 10px;
 }
 
 .play-button {
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: #000000b3;
     color: white;
